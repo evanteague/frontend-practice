@@ -1,0 +1,38 @@
+.keypad {
+    display: grid;
+    grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr [col4] 1fr;
+    padding: 20px;
+    border-radius: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 20px;
+
+    .button--2 {
+        grid-column: span 2;
+    }
+}
+
+.calculator--theme-1 { 
+    .keypad {
+        background-color: var(--theme-1-toggle-color);
+    }
+}
+
+.calculator--theme-2 { 
+    .keypad {
+        background-color: var(--theme-2-toggle-color);
+    }
+}
+
+.calculator--theme-3 { 
+    .keypad {
+        background-color: var(--theme-3-toggle-color);
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .keypad {
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}

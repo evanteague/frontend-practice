@@ -1,0 +1,79 @@
+.calculator--theme-1 {
+    .button--math {
+        background-color: var(--theme-1-text-white);
+        color: var(--theme-1-text-1);
+        box-shadow: 0 5px var(--theme-1-key-shadow-1);
+    }
+
+    .button--delete, .button--reset {
+        background-color: var(--theme-1-key-background-1);
+        color: var(--theme-1-text-white);
+        box-shadow: 0 5px var(--theme-1-key-shadow-1);
+    }
+
+    .button--sum {
+        background-color: var(--theme-1-key-background-3);
+        color: var(--theme-1-text-white);
+        box-shadow: 0 5px var(--theme-1-key-shadow-3);
+    }
+}
+
+.calculator--theme-2 {
+    .button--math {
+        background-color: var(--theme-2-key-background-3);
+        color: var(--theme-2-text-1);
+        box-shadow: 0 5px var(--theme-2-key-shadow-3);
+    }
+
+    .button--delete, .button--reset {
+        background-color: var(--theme-2-key-background-1);
+        color: var(--theme-2-text-white);
+        box-shadow: 0 5px var(--theme-2-key-shadow-1);
+    }
+
+    .button--sum {
+        background-color: var(--theme-2-key-background-2);
+        color: var(--theme-2-text-white);
+        box-shadow: 0 5px var(--theme-2-key-shadow-2);
+    }
+}
+
+.calculator--theme-3 {
+    .button--math {
+        background-color: var(--theme-3-key-background-3);
+        color: var(--theme-3-text-1);
+        box-shadow: 0 5px var(--theme-3-key-shadow-3);
+    }
+
+    .button--delete, .button--reset {
+        background-color: var(--theme-3-key-background-1);
+        color: var(--theme-3-text-white);
+        box-shadow: 0 5px var(--theme-3-key-shadow-1);
+    }
+
+    .button--sum {
+        background-color: var(--theme-3-key-background-2);
+        color: var(--theme-3-text-2);
+        box-shadow: 0 5px var(--theme-3-key-shadow-2);
+    }
+}
+
+.button {
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Spartan', sans-serif;
+    cursor: pointer;
+}
+
+.button:active {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 375px) {
+    .button {
+        padding: 10px;
+    }
+}
