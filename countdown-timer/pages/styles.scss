@@ -1,0 +1,41 @@
+html,
+body,
+#__next {
+    height: 100%;
+}
+
+body {
+    --white: hsl(0, 0%, 100%);
+    --darkSaturatedBlue: hsl(236, 21%, 26%);
+    --darkerSaturatedBlue: hsl(236, 21%, 20%);
+    --darkBlue: hsl(235, 16%, 14%);
+    --black: hsl(234, 17%, 12%);
+    --grayBlue: hsl(237, 18%, 59%);
+    --red: hsl(345, 95%, 68%);
+
+    --mobile: 375px;
+    --desktop: 1440px;
+
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+
+    background-image: url('/bg-stars.svg');
+    background-color: var(--darkBlue);
+
+    margin: 0;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hills-image {
+    position: absolute;
+    bottom: 0;
+}
