@@ -4,9 +4,9 @@ import Image from "next/image";
 function Social(props) {
     return (
         <div className="social">
-            <Image className="social__icon" src="/icon-facebook.svg" height={30} width={30} />
-            <Image className="social__icon" src="/icon-pinterest.svg" height={30} width={30} />
-            <Image className="social__icon" src="/icon-instagram.svg" height={30} width={30} />
+            <Image className="social__icon" src="/static/icon-facebook.svg" height={30} width={30} />
+            <Image className="social__icon" src="/static/icon-pinterest.svg" height={30} width={30} />
+            <Image className="social__icon" src="/static/icon-instagram.svg" height={30} width={30} />
             <style>
                 {`
                     .social {
