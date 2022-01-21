@@ -9,7 +9,6 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -25,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://frontend-practice-calculator-app-main.vercel.app/)
 
 ## My process
 
@@ -36,6 +35,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Evan Teague](https://evanteague.dev)
 - Frontend Mentor - [@evanteague](https://www.frontendmentor.io/profile/evanteague)
 

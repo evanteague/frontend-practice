@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer utilities {
+  .rounded-lg-tr-xxl {
+    border-radius: 0.5rem 9rem 0.5rem 0.5rem;
+  }
+
+  .bg-mobile-custom {
+    background-image: url("/bg-mobile.png");
+  }
+
+  .bg-desktop-custom {
+    background-image: url("/bg-desktop.png");
+  }
+
+  .bg-size-custom {
+    background-size: 100% 50%;
+  }
+}
