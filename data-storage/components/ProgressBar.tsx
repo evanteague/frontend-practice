@@ -30,7 +30,7 @@ export default function ProgressBar(props: ProgressBarProps) {
             <style>
                 {extraCSS}
             </style>
-            <div className="text-neutral-50 text-center xl:text-left">You've used <span>{current}GB</span> of your storage</div>
+            <div className="text-neutral-50 text-center xl:text-left">You&apos;ve used <span>{current}GB</span> of your storage</div>
             <div className={progressBarClasses}>
                 <div className="progress-bar__progress h-full rounded-full"></div>
             </div>
